@@ -15,9 +15,17 @@ Represents user
 message User {
   int32 id = 1;
   string username = 2;
-  bool is_active = 3;
+  bool is_active = 3 [json_name = "is_active"];
   bytes password = 4;
 
   repeated string emails = 16; //Penomoran field tidak harus urut
   Gender gender = 17;
+
+  Address adress = 18;
+}
+
+message Address {
+  string street = 1;
+  string city = 2;
+  string country = 3;
 }
