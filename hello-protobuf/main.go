@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"hello-proto/basic"
+	"hello-protobuf/basic"
 	"log"
 	"time"
 )
@@ -19,4 +19,5 @@ func main() {
 	log.SetOutput(new(logWriter))
 
 	basic.BasicHello()
+	basic.BasicUser()
 }

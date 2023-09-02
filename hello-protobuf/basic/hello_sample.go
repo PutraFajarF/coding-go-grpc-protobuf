@@ -1,7 +1,7 @@
 package basic
 
 import (
-	"hello-proto/protogen/basic"
+	"hello-protobuf/protogen/basic"
 	"log"
 )
 

@@ -1,4 +1,4 @@
-module hello-proto
+module hello-protobuf
 
 go 1.19
 
